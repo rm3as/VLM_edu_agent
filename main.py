@@ -18,5 +18,5 @@ if uploaded_file:
         answer = ...
         caption = ...
         st.write(f'Bot:{answer}')
-        st.image('output_image.jpg', caption=caption, use_column_width=True)
+        st.image('output_example.jpeg', caption=caption, use_column_width=True)
         
