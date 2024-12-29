@@ -13,10 +13,13 @@ if uploaded_file:
     instruction = st.text_input('How can I help you?(ex. "Highlight C pass")')
     if st.button('Start analysis.'):
         """
+        CLIPでわたされた画像解析
+        """
+        """
         ここでgptで回答生成
         """
         """
-        ここでCLIP呼び出して、ハイライトつけてoutput_example.jpegとして保存
+        わたされた画像にハイライトつけてoutput_example.jpegとして保存
         """
         answer = ...
         caption = ...
